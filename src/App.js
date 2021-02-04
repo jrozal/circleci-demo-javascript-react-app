@@ -8,16 +8,16 @@ import Card from './Componets/Card';
 
 
 class App extends Component {
-  render() {
-    return (
-      <Layout>
-        <Header title="Baby Hippo Gram"/>
-        <Container>
-          <Card cards={ this.state.cards } />
-        </Container>
-      </Layout>
-    );
-  }
+  // render() {
+  //   return (
+  //     <Layout>
+  //       <Header title="Baby Hippo Gram"/>
+  //       <Container>
+  //         <Card cards={ this.state.cards } />
+  //       </Container>
+  //     </Layout>
+  //   );
+  // }
 
   state = {
       cards: []
